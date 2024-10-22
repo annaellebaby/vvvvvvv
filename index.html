@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title> סדר ת'חדר </title>
+		 <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>כפתור שלח</title>
+		<style type ="text/css">
+		
+		   body{
+		       font-weight:bold;
+			   font-size:25px;
+			   direction:rtl;
+			   text-align: center;
+			   background-color: #ADD8E6; /* צבע רקע תכלת בהיר */
+
+			}
+			button {
+               font-size: 20px;
+               padding: 10px 20px;
+               background-color: #4CAF50; /* צבע ירוק לכפתור */
+               color: white;
+               border: none;
+               border-radius: 5px;
+               cursor: pointer;
+            }
+
+
+            button:hover {
+               background-color: #45a049;
+            }			
+	    </style>
+    </head>
+
+    <body>
+        <h1><strong>  בלגן בטוח</strong> </h1>
+		<h2> "איך לא לסדר את הדירה נכון"</h2> 
+        <img src = "C:\Users\Owner\Desktop\clean\apr.jpg"  width = "300"/>
+ <!-- כפתור שלח -->
+        <form action="submit_game.php" method="POST">
+           <label for="name"> מי פאקינג גר פה:</label>
+           <input type="text" id="name" name="name" required>
+           <br><br>
+           <button type="submit">שלח</button>
+        </form>
+    </body>
+
+
+</html>
